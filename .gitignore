@@ -1,0 +1,17 @@
+data/
+output/checkpoints/*
+output/tables/*
+output/figures/*
+output/models/*
+!output/checkpoints/.gitkeep
+!output/tables/.gitkeep
+!output/figures/.gitkeep
+!output/models/.gitkeep
+__pycache__/
+*.py[cod]
+*.pkl
+*.parquet
+*.csv
+.ipynb_checkpoints/
+.env
+.DS_Store
