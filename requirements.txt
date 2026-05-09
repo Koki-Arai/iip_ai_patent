@@ -1,0 +1,18 @@
+# Core dependencies for replication of
+# "Core AI Patents and Patent Examination in Japan"
+#
+# Install with:  pip install -r requirements.txt
+
+pandas>=1.5
+numpy>=1.23
+scipy>=1.10
+
+# Econometrics
+pyfixest>=0.13           # Fixed-effects OLS, Poisson PML, multiway clustering
+statsmodels>=0.14        # Probit, multiple-hypothesis correction
+
+# Visualization
+matplotlib>=3.7
+
+# Optional: for Colab interaction
+google-colab; platform_system != "Darwin"
